@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/balmanjari-dev/static/css/main.346ed61b.chunk.css",
-    "main.js": "/balmanjari-dev/static/js/main.c6011879.chunk.js",
-    "main.js.map": "/balmanjari-dev/static/js/main.c6011879.chunk.js.map",
+    "main.js": "/balmanjari-dev/static/js/main.db7929b0.chunk.js",
+    "main.js.map": "/balmanjari-dev/static/js/main.db7929b0.chunk.js.map",
     "runtime-main.js": "/balmanjari-dev/static/js/runtime-main.f1fd034d.js",
     "runtime-main.js.map": "/balmanjari-dev/static/js/runtime-main.f1fd034d.js.map",
     "static/js/2.6853dfed.chunk.js": "/balmanjari-dev/static/js/2.6853dfed.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f1fd034d.js",
     "static/js/2.6853dfed.chunk.js",
     "static/css/main.346ed61b.chunk.css",
-    "static/js/main.c6011879.chunk.js"
+    "static/js/main.db7929b0.chunk.js"
   ]
 }
