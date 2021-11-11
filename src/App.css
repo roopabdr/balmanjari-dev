@@ -1,38 +1,108 @@
+/* orange used #f96910 */
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.App .om{
+  font-size: 75vmin;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: hsl(23, 95%, 52%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.balmanjariLogo {  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: hsl(23, 95%, 52%);
+}
+
+.balmanjariLogo img {
+  height: 50vmin;
+  width: auto;
+  margin: 3vmin 0vmin 0vmin 0vmin;
+  border-radius: 50%;
+  border: 5px solid rgb(228, 145, 21);
+}
+
+.balmanjariLogo span{
+  font-size: 10vmin;
+  font-weight: bold;
+}
+
+/* Animation banner begin */
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.banner{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner .heading {
+  /* display: inline-block; */
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* color: hsl(23, 95%, 52%); */
+  color: hsl(48, 93%, 53%);
+  font-family: 'Righteous', serif;
+  font-size: 7vmin; 
+  text-shadow: .03em .03em 0 rgb(224, 160, 100);
   }
-  to {
-    transform: rotate(360deg);
+  .banner .heading:after {
+    content: attr(data-shadow);
+    /* display: flex; */
+    position: absolute;
+    top   : 0.8vmin;
+    left  : 1.3vmin;
+    bottom: 0;
+    right : 0;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        rgb(236, 87, 18) 45%,
+        rgb(226, 100, 42) 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 15s linear infinite;
+    }
+
+@keyframes shad-anim {
+  0% {background-position: 0 0}
+  0% {background-position: 50% -50%}
+  }
+
+/* Animation banner end */
+
+.App .homeContent{
+  margin: 2vmin 20vmin 2vmin 20vmin;
+  z-index: 3;
+  font-size: 4vmin;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media only screen and (max-width: 500px){
+  .App .homeContent{
+    margin: 2vmin 10vmin 2vmin 10vmin;
+    z-index: 3;
+    font-size: 6vmin;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
