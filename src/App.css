@@ -76,6 +76,7 @@
         transparent 0
         );
     background-size: .05em .05em;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   
@@ -126,6 +127,7 @@
 
 .topnav .icon {
   display: none;
+  font-size: 8vmin;
 }
 
 @media screen and (max-width: 600px) {

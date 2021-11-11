@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 import './App.scss';
 import BalmanjariLogo from './Logo/Balmanjari_logo-2.png';
@@ -10,14 +11,16 @@ import {
 } from "react-router-dom";
 
 function App() {
+  const [navSelect, setNavSelect] = useState("home");
+
   return (
     <div className="App">
       <Router>
         <div className="topnav" id="myTopnav">
-          <Link to="/" className="active">Home</Link>
-          <Link to={"/about"}>About Us</Link>
-          <Link to="/gallery">Image Gallery</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/" className={navSelect === "home" ? "active" : null} onClick={() => setNavSelect("home")}>Home</Link>
+          <Link to="/about" className={navSelect === "about" ? "active" : null} onClick={() => { setNavSelect("about"); document.getElementById("myTopnav").classList.remove("responsive"); }}>About Us</Link>
+          <Link to="/gallery" className={navSelect === "gallery" ? "active" : null} onClick={() => { setNavSelect("gallery"); document.getElementById("myTopnav").classList.remove("responsive"); }}>Image Gallery</Link>
+          <Link to="/contact" className={navSelect === "contact" ? "active" : null} onClick={() => { setNavSelect("contact"); document.getElementById("myTopnav").classList.remove("responsive"); }}>Contact</Link>
           <span className="icon" onClick={hamburger}>
             <i className="fa fa-bars"></i>
           </span>
