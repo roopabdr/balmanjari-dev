@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/balmanjari-dev/static/css/main.e7f7067a.chunk.css",
-    "main.js": "/balmanjari-dev/static/js/main.d2b2ed13.chunk.js",
-    "main.js.map": "/balmanjari-dev/static/js/main.d2b2ed13.chunk.js.map",
-    "runtime-main.js": "/balmanjari-dev/static/js/runtime-main.29afc156.js",
-    "runtime-main.js.map": "/balmanjari-dev/static/js/runtime-main.29afc156.js.map",
-    "static/js/2.21182fca.chunk.js": "/balmanjari-dev/static/js/2.21182fca.chunk.js",
-    "static/js/2.21182fca.chunk.js.map": "/balmanjari-dev/static/js/2.21182fca.chunk.js.map",
-    "static/js/3.f368886b.chunk.js": "/balmanjari-dev/static/js/3.f368886b.chunk.js",
-    "static/js/3.f368886b.chunk.js.map": "/balmanjari-dev/static/js/3.f368886b.chunk.js.map",
+    "main.css": "/balmanjari-dev/static/css/main.346ed61b.chunk.css",
+    "main.js": "/balmanjari-dev/static/js/main.c6011879.chunk.js",
+    "main.js.map": "/balmanjari-dev/static/js/main.c6011879.chunk.js.map",
+    "runtime-main.js": "/balmanjari-dev/static/js/runtime-main.f1fd034d.js",
+    "runtime-main.js.map": "/balmanjari-dev/static/js/runtime-main.f1fd034d.js.map",
+    "static/js/2.6853dfed.chunk.js": "/balmanjari-dev/static/js/2.6853dfed.chunk.js",
+    "static/js/2.6853dfed.chunk.js.map": "/balmanjari-dev/static/js/2.6853dfed.chunk.js.map",
+    "static/js/3.0ad40d69.chunk.js": "/balmanjari-dev/static/js/3.0ad40d69.chunk.js",
+    "static/js/3.0ad40d69.chunk.js.map": "/balmanjari-dev/static/js/3.0ad40d69.chunk.js.map",
     "index.html": "/balmanjari-dev/index.html",
-    "static/css/main.e7f7067a.chunk.css.map": "/balmanjari-dev/static/css/main.e7f7067a.chunk.css.map",
-    "static/js/2.21182fca.chunk.js.LICENSE.txt": "/balmanjari-dev/static/js/2.21182fca.chunk.js.LICENSE.txt",
+    "static/css/main.346ed61b.chunk.css.map": "/balmanjari-dev/static/css/main.346ed61b.chunk.css.map",
+    "static/js/2.6853dfed.chunk.js.LICENSE.txt": "/balmanjari-dev/static/js/2.6853dfed.chunk.js.LICENSE.txt",
     "static/media/Balmanjari_logo-2.e6e19c5b.png": "/balmanjari-dev/static/media/Balmanjari_logo-2.e6e19c5b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.29afc156.js",
-    "static/js/2.21182fca.chunk.js",
-    "static/css/main.e7f7067a.chunk.css",
-    "static/js/main.d2b2ed13.chunk.js"
+    "static/js/runtime-main.f1fd034d.js",
+    "static/js/2.6853dfed.chunk.js",
+    "static/css/main.346ed61b.chunk.css",
+    "static/js/main.c6011879.chunk.js"
   ]
 }
